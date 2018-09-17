@@ -1,7 +1,7 @@
 # UIViewControllerTransitionCoordinatorBug
 in iOS 11.0~
 
-UIViewControllerTransitionCoordinator is not working at the first transition after launcing.
+UIViewControllerTransitionCoordinator is not working at the first transition after launching.
 
 https://openradar.appspot.com/38135706
 
