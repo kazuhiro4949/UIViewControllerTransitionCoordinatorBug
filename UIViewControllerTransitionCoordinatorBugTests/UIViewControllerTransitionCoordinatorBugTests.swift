@@ -2,7 +2,7 @@
 //  UIViewControllerTransitionCoordinatorBugTests.swift
 //  UIViewControllerTransitionCoordinatorBugTests
 //
-//  Created by kahayash on 2018/09/17.
+//  Created by Kazuhiro Hayashi on 2018/09/17.
 //  Copyright © 2018 kazuhiro hayashi. All rights reserved.
 //
 
