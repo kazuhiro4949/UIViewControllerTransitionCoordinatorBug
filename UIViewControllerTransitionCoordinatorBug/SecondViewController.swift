@@ -21,7 +21,18 @@ class SecondViewController: UIViewController {
         super.didReceiveMemoryWarning()
     }
     
-    
+//    override func viewWillAppear(_ animated: Bool) {
+//        super.viewWillAppear(animated)
+//        contentView.layer.cornerRadius = 150
+//        contentView.backgroundColor = .blue
+//    }
+//    
+//    override func viewWillDisappear(_ animated: Bool) {
+//        super.viewWillDisappear(animated)
+//        contentView.layer.cornerRadius = 0
+//        contentView.backgroundColor = .red
+//    }
+//    
     /*
      // MARK: - Navigation
      

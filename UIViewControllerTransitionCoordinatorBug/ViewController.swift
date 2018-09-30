@@ -51,21 +51,26 @@ class ViewController: UIViewController {
 
 extension ViewController: UINavigationControllerDelegate {
     func navigationController(_ navigationController: UINavigationController, willShow viewController: UIViewController, animated: Bool) {
+        
         if let vc = transitionCoordinator?.viewController(forKey: .from) as? SecondViewController {
-            transitionCoordinator?.animate(alongsideTransition: { (_) in
+            transitionCoordinator?.animateAlongsideTransition(in: navigationController.view, animation: { (_) in
                 vc.contentView.layer.cornerRadius = 0
                 vc.contentView.backgroundColor = .red
             }, completion: { context in
                 
             })
+//            vc.contentView.layer.cornerRadius = 0
+//            vc.contentView.backgroundColor = .red
         } else if let vc = transitionCoordinator?.viewController(forKey: .to) as? SecondViewController {
-            transitionCoordinator?.animate(alongsideTransition: { (_) in
+            transitionCoordinator?.animateAlongsideTransition(in: navigationController.view, animation: { (_) in
                 vc.contentView.layer.cornerRadius = 150
                 vc.contentView.backgroundColor = .blue
             }, completion: nil)
+//            vc.contentView.layer.cornerRadius = 150
+//            vc.contentView.backgroundColor = .blue
         }
     }
-    
+//
 //        func navigationController(_ navigationController: UINavigationController, animationControllerFor operation: UINavigationControllerOperation, from fromVC: UIViewController, to toVC: UIViewController) -> UIViewControllerAnimatedTransitioning? {
 //            return operation == .push ? CustomPushAnimator() : CustomPopAnimator()
 //        }
