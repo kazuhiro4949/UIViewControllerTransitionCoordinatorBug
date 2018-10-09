@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B291E1F216C5ADB00D57BED /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B291E1E216C5ADB00D57BED /* NavigationController.swift */; };
 		2BCC4332214F945C0033A759 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC4331214F945C0033A759 /* AppDelegate.swift */; };
 		2BCC4334214F945C0033A759 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BCC4333214F945C0033A759 /* ViewController.swift */; };
 		2BCC4339214F945D0033A759 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BCC4338214F945D0033A759 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2B291E1E216C5ADB00D57BED /* NavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
 		2BCC432E214F945C0033A759 /* UIViewControllerTransitionCoordinatorBug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewControllerTransitionCoordinatorBug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BCC4331214F945C0033A759 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2BCC4333214F945C0033A759 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				2BCC4331214F945C0033A759 /* AppDelegate.swift */,
 				2BCC4333214F945C0033A759 /* ViewController.swift */,
 				2BCC4361214F94930033A759 /* SecondViewController.swift */,
+				2B291E1E216C5ADB00D57BED /* NavigationController.swift */,
 				2BCC4338214F945D0033A759 /* Assets.xcassets */,
 				2BCC433A214F945D0033A759 /* LaunchScreen.storyboard */,
 				2BCC435F214F94780033A759 /* Main.storyboard */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BCC4362214F94930033A759 /* SecondViewController.swift in Sources */,
+				2B291E1F216C5ADB00D57BED /* NavigationController.swift in Sources */,
 				2BCC4334214F945C0033A759 /* ViewController.swift in Sources */,
 				2BCC4332214F945C0033A759 /* AppDelegate.swift in Sources */,
 			);
